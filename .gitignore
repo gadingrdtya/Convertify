@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js build
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and sensitive secrets
+.env
+.env*.local
+server/.env
+DO NOT PUSH TO GITHUB/
+API_KEY_GROQ.md
+
+# Temporary processing files
+server/temp/
+temp/
+*.tmp
+
+# IDE & OS
+.DS_Store
+*.pem
+.vscode/
+.idea/
+Thumbs.db
